@@ -345,11 +345,10 @@ const p5Instance = new p5(wheelSketch);
 
 p5Instance.onAfterSetup = function () {
     p5Instance.setVideos([
-        ['videos/ivango_upal.mp4', 5],
-        ['videos/krispus_car.mp4', 7],
-        ['videos/skyfai_cum.mp4', 32],
-        // ['videos/BASSBOOSTED   Смешарики-От винта.mp4', 22],
-        ['videos/skyfai_koncha.mp4', 6, p5Instance.random([75, 137])],
+        'videos/ivango_upal.mp4',
+        'videos/krispus_car.mp4',
+        'videos/skyfai_cum.mp4',
+        'videos/skyfai_koncha.mp4',
     ]);
 };
 
