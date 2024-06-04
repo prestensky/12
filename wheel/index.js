@@ -345,6 +345,20 @@ const p5Instance = new p5(wheelSketch);
 
 p5Instance.onAfterSetup = function () {
     p5Instance.setVideos([
+        ['videos/ivango_upal.mp4', 5],
+        ['videos/krispus_car.mp4', 7],
+        ['videos/skyfai_cum.mp4', 32],
+        // ['videos/BASSBOOSTED   Смешарики-От винта.mp4', 22],
+        ['videos/skyfai_koncha.mp4', 6],
+        ['videos/Пузантос - Бумаги [Morrowind].mp4', 129],
+        ['videos/Сыновья России. Кто пчелок уважает.mp4', 26],
+        ['videos/[SFM] Shrekophone.mp4', 15],
+        ['videos/Мэддисон - Shooting Stars.mp4', 13],
+        ['videos/All Star but they don\'t stop coming pitch corrected.mp4', 20],
+        ['videos/U GOT THAT   LASQA EDITION.mp4', 9],
+        ['videos/Pinoki - Pingana (Havana by Camila Cabello ft. Young Thug Remix).mp4', 54],
+        ['videos/Noisestorm - Crab Rave (Official Music Video).mp4', p5Instance.random([75, 137])],
+        // 'videos/14278244937910.webm',
         'videos/ivango_upal.mp4',
         'videos/krispus_car.mp4',
         'videos/skyfai_cum.mp4',
