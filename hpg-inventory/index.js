@@ -7,148 +7,241 @@ const items = [
         title: 'Пустая ячейка'
     },
     {
-        img: 'images/051.png',
-        title: 'Щit',
-        count: 2,
+        img: 'images/001.png',
+        title: 'Читерский кубик',
     },
     {
         img: 'images/052.png',
-        title: 'Комбинезон химзащиты'
+        title: 'Кубик хуюбика'
     },
     {
-        img: 'images/053.png',
-        title: 'Рулон туалетной бумаги',
+        img: 'images/003.png',
+        title: 'Очки EZ',
+    },
+    {
+        img: 'images/004.png',
+        title: 'Повязка Рэмбо',
+    },
+    {
+        img: 'images/005.png',
+        title: 'Свиток реролла'
+    },
+    {
+        img: 'images/006.png',
+        title: 'Шар всезнания'
+    },
+    {
+        img: 'images/007.png',
+        title: 'Взрывчатка',
         count: 2,
     },
     {
-        img: 'images/054.png',
-        title: 'Респиратор',
-        count: 10,
+        img: 'images/008.png',
+        title: 'Корона колесного короля',
     },
     {
-        img: 'images/055.png',
-        title: 'Одноразовые перчатки'
+        img: 'images/009.png',
+        title: 'Ремонтный набор'
     },
     {
-        img: 'images/056.png',
-        title: 'Банка шпината'
+        img: 'images/010.png',
+        title: 'Красочная манга',
     },
     {
-        img: 'images/057.png',
-        title: 'Крышка от мусорного бака',
+        img: 'images/011.png',
+        title: 'Рука мидаса',
+        count: 3,
     },
     {
-        img: 'images/058.png',
-        title: 'Ремонтный набор',
-        count: 2,
+        img: 'images/012.png',
+        title: 'Реверсивные сапоги'
     },
     {
-        img: 'images/059.png',
-        title: 'Антисептик'
-    },
-    {
-        img: 'images/060.png',
-        title: 'Рука для фистинга имени Билли Херрингтона',
+        img: 'images/013.png',
+        title: 'Парные кольца времени',
         count: 4,
     },
     {
-        img: 'images/061.png',
-        title: 'Сексуальные чулки',
+        img: 'images/014.png',
+        title: 'Тухлая шаурма',
         count: 2,
     },
     {
-        img: 'images/062.png',
+        img: 'images/015.png',
         title: 'Четырехлистный клевер'
     },
     {
-        img: 'images/063.png',
-        title: 'Кукла вуду'
+        img: 'images/016.png',
+        title: 'Чокер боли'
     },
     {
-        img: 'images/064.png',
-        title: 'Набор выживальщика',
-        count: 3,
+        img: 'images/017.png',
+        title: 'Полукаловая монетка'
     },
     {
-        img: 'images/065.png',
+        img: 'images/018.png',
+        title: 'Шоколад',
+    },
+    {
+        img: 'images/019.png',
+        title: 'Туалетка',
+    },
+    {
+        img: 'images/020.png',
+        title: 'Штрафная квитанция',
+    },
+    {
+        img: 'images/021.png',
+        title: 'Дырявый парашют'
+    },
+    {
+        img: 'images/022.png',
         title: 'Наперсток удачи'
     },
     {
-        img: 'images/066.png',
-        title: 'Переносной телепорт'
+        img: 'images/023.png',
+        title: 'Рука для fisting',
+        count: 5,
     },
     {
-        img: 'images/067.png',
-        title: 'Футляр'
-    },
-    {
-        img: 'images/068.png',
-        title: 'Жилетка Вассермана',
-        count: 2,
-    },
-    {
-        img: 'images/069.png',
-        title: 'Стул мамы Мерфи',
-        count: 2,
-    },
-    {
-        img: 'images/070.png',
-        title: 'Шиш кебаб',
-        count: 7,
-    },
-    {
-        img: 'images/071.png',
-        title: 'Альпинистский трос'
-    },
-    {
-        img: 'images/072.png',
-        title: 'Хакерский компьютер'
-    },
-    {
-        img: 'images/073.png',
-        title: 'Корона короля петучей',
-        count: 3,
-    },
-    {
-        img: 'images/074.png',
-        title: 'Благословение Хакса',
-        count: 3,
+        img: 'images/024.png',
+        title: 'Тотем мошны',
         isNotSlot: true
     },
     {
-        img: 'images/075.png',
-        title: 'Порошок прозрения',
-        count: 2
+        img: 'images/025.png',
+        title: 'Плюсовый блокнот',
+        isNotSlot: true
     },
 
     {
-        img: 'images/01.png',
-        title: 'Силовая броня (Корона короля петучей, Щit, Одноразовые перчатки)',
+        img: 'images/026.png',
+        title: 'Интрига',
+        isNotSlot: true
+    },
+    {
+        img: 'images/027.png',
+        title: 'Однорукий бандит',
+        isNotSlot: true
+    },
+    {
+        img: 'images/028.png',
+        title: 'Грязнулькин',
+        isNotSlot: true
+    },
+    {
+        img: 'images/029.png',
+        title: 'Лепреконий схрон',
+        isNotSlot: true
+    },
+    {
+        img: 'images/030.png',
+        title: 'Заначка Старыги',
+        isNotSlot: true
+    },
+    {
+        img: 'images/031.png',
+        title: 'Стример не тупой',
+        isNotSlot: true
+    },
+    {
+        img: 'images/032.png',
+        title: 'Аптечка',
+        isNotSlot: true
+    },
+    {
+        img: 'images/033.png',
+        title: 'Mine now TriHard',
+        isNotSlot: true
+    },
+    {
+        img: 'images/034.png',
+        title: 'Удачный неудачник',
+        isNotSlot: true
+    },
+    {
+        img: 'images/035.png',
+        title: 'Торопыга',
+        isNotSlot: true
+    },
+    {
+        img: 'images/036.png',
+        title: 'Бог любит троицу',
+        isNotSlot: true
+    },
+    {
+        img: 'images/037.png',
+        title: 'Орел или решка',
+        isNotSlot: true
+    },
+    {
+        img: 'images/038.png',
+        title: 'А где это я?',
+        isNotSlot: true
+    },
+    {
+        img: 'images/039.png',
+        title: 'Я здесь закон',
+        isNotSlot: true
+    },
+    {
+        img: 'images/040.png',
+        title: 'Выбор бумера',
+        isNotSlot: true
+    },
+    {
+        img: 'images/041.png',
+        title: 'Выбор зумера',
+        isNotSlot: true
+    },
+    {
+        img: 'images/042.png',
+        title: 'Мистер Ржавчик',
+        isNotSlot: true
+    },
+    {
+        img: 'images/043.png',
+        title: 'Всепоглощающий свин',
+        isNotSlot: true
+    },
+    {
+        img: 'images/044.png',
+        title: 'Грабли',
+        isNotSlot: true
+    },
+    {
+        img: 'images/045.png',
+        title: 'Тормознутый',
+        isNotSlot: true
+    },
+    {
+        img: 'images/046.png',
+        title: 'Крыса',
+        isNotSlot: true
+    },
+    {
+        img: 'images/047.png',
+        title: 'УВЫ',
+        isNotSlot: true
+    },
+    {
+        img: 'images/048.png',
+        title: 'Часовой рост',
+        isNotSlot: true
+    },
+    {
+        img: 'images/049.png',
+        title: 'Часы перемен',
+        count: 3,
+    },
+    {
+        img: 'images/050.png',
+        title: 'Инструменты клоуна',
         count: 2,
-        isNotSlot: true
     },
     {
-        img: 'images/02.png',
-        title: 'Костюм мудреца (Порошок прозрения, хакерский компьютер, Жилетка Вассермана)',
-        count: 3,
-        isNotSlot: true
-    },
-    {
-        img: 'images/03.png',
-        title: 'Костюм "Элегантный рекетир" (Наперсток удачи, сексуальные чулки, Рука для фистинга имени Билли Херрингтона)',
-        count: 3,
-        isNotSlot: true
-    },
-    {
-        img: 'images/04.png',
-        title: 'Костюм "Исследователь Пустошей" (Набор выживальщика, Комбинезон химзащиты, Крышка от мусорного бака)',
-        count: 3,
-        isNotSlot: true
-    },
-    {
-        img: 'images/05.png',
-        title: 'Рейдерские лохмотья (Шиш-Кебаб, Кукла вуду, Альпинистский трос)',
-        count: 2,
+        img: 'images/051.png',
+        title: 'Хук Пуджа',
         isNotSlot: true
     },
 ];
