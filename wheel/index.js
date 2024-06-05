@@ -97,7 +97,7 @@ const dataSets = {
     ],
     streamers: [
         'wei44th',
-        '_aycelia',
+        'aloofaloof',
         'IvanGO',
         'kanoyaa',
         'skyfai_',
