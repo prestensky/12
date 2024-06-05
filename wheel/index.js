@@ -316,7 +316,7 @@ function getImageURI(index) {
                 24,
                 25
             ];
-            result = '../hpg-inventory/images/0' + ('0' + (mapping1[index])).slice(-2) + '.png';
+            result = '../hpg-inventory/images/0' + ('0' + (mapping1[index])).slice(-1) + '.png';
             break;
 
         case "debuffs":
@@ -328,7 +328,7 @@ function getImageURI(index) {
                 20,
                 21
             ];
-            result = '../hpg-inventory/images/0' + ('0' + (mapping[index])).slice(-2) + '.png';
+            result = '../hpg-inventory/images/0' + ('0' + (mapping[index])).slice(-1) + '.png';
             break;
 
         case "coin":
