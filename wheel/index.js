@@ -3,7 +3,7 @@
  */
 
 const dataSets = {
-    items: [
+    inventory: [
         'Стример не тупой',
         'Красочная манга',
         'Свиток реролла',
@@ -128,7 +128,7 @@ const dataSets = {
         'Вернитесь на клетку, с которой вы начинали текущий ход и совершите ход заново, сохранив эффекты событий и предметов, влияющих на движение.',
     ]
 };
-let currentDataSet = 'items',
+let currentDataSet = 'inventory',
     editedDataSets = {};
 
 const editDialog = document.getElementById('dialog-edit'),
@@ -298,33 +298,37 @@ function getImageURI(index) {
     ;
     switch (currentDataSet) {
         case "inventory":
-            offset = 50;
+            offset = 0;
         case "effects":
-            result = '../hpg-inventory/images/0' + ('0' + (index+1 + offset)) + '.png';
+            const mapping1 = [
+                1,
+                3,
+                5,
+                6,
+                8,
+                9,
+                10,
+                13,
+                15,
+                18,
+                19,
+                22,
+                24,
+                25
+            ];
+            result = '../hpg-inventory/images/0' + ('0' + (mapping1[index])).slice(-2) + '.png';
             break;
 
         case "debuffs":
             const mapping = [
-                1,
                 2,
+                4,
                 7,
-                10,
                 12,
-                13,
-                16,
-                18,
                 20,
-                21,
-                22,
-                23,
-                26,
-                25,
-                31,
-                44,
-                48,
-                49
+                21
             ];
-            result = '../hpg-inventory/images/0' + ('0' + (mapping[index])) + '.png';
+            result = '../hpg-inventory/images/0' + ('0' + (mapping[index])).slice(-2) + '.png';
             break;
 
         case "coin":
