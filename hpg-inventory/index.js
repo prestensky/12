@@ -11,7 +11,7 @@ const items = [
         title: 'Читерский кубик',
     },
     {
-        img: 'images/052.png',
+        img: 'images/002.png',
         title: 'Кубик хуюбика'
     },
     {
