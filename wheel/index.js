@@ -345,17 +345,26 @@ const p5Instance = new p5(wheelSketch);
 
 p5Instance.onAfterSetup = function () {
     p5Instance.setVideos([
-        ['videos/ivango_upal.mp4', 5],
-        ['videos/krispus_car.mp4', 7],
-        ['videos/skyfai_cum.mp4', 32],
-        // ['videos/BASSBOOSTED   Смешарики-От винта.mp4', 22],
+        ['videos/ivango_upal.mp4', 1],
+        ['videos/krispus_car.mp4', 2],
+        ['videos/skyfai_cum.mp4', 4],
         ['videos/skyfai_koncha.mp4', 6],
-        ['videos/ivango_upal.mp4', p5Instance.random([5, 32])],
+        ['videos/aycelia_reklama.mp4', 7],
+        ['videos/wei_aa.mp4', 5],
+        ['videos/wei_vstal.mp4', 3],
+        ['videos/aycelia_cs.mp4', 8],
+        ['videos/wei_hi.mp4', 9],
+        ['videos/wei_hi.mp4', p5Instance.random([1, 9])],
         // 'videos/14278244937910.webm',
         'videos/ivango_upal.mp4',
         'videos/krispus_car.mp4',
         'videos/skyfai_cum.mp4',
         'videos/skyfai_koncha.mp4',
+        'videos/aycelia_reklama.mp4',
+        'videos/wei_aa.mp4',
+        'videos/wei_vstal.mp4',
+        'videos/aycelia_cs.mp4',
+        'videos/wei_hi.mp4',
     ]);
 };
 
