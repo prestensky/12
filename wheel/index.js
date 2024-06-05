@@ -353,8 +353,13 @@ p5Instance.onAfterSetup = function () {
         ['videos/wei_aa.mp4', 5],
         ['videos/wei_vstal.mp4', 3],
         ['videos/aycelia_cs.mp4', 8],
-        ['videos/wei_hi.mp4', 9],
-        ['videos/wei_hi.mp4', p5Instance.random([1, 9])],
+        ['videos/absolute.mp4', 9],
+        ['videos/ching.mp4', 10],
+        ['videos/europapa_only_pa.mp4', 11],
+        ['videos/giovanni.mp4', 12],
+        ['videos/kid-hitmanclub.mp4', 13],
+        ['videos/wei_hi.mp4', 14],
+        ['videos/wei_hi.mp4', p5Instance.random([1, 14])],
         // 'videos/14278244937910.webm',
         'videos/ivango_upal.mp4',
         'videos/krispus_car.mp4',
@@ -365,6 +370,11 @@ p5Instance.onAfterSetup = function () {
         'videos/wei_vstal.mp4',
         'videos/aycelia_cs.mp4',
         'videos/wei_hi.mp4',
+        'videos/kid-hitmanclub.mp4',
+        'videos/europapa_only_pa.mp4',
+        'videos/giovanni.mp4',
+        'videos/ching.mp4',
+        'videos/absolute.mp4',
     ]);
 };
 
