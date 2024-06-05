@@ -301,12 +301,12 @@ function getImageURI(index) {
             offset = 0;
         case "effects":
             const mapping1 = [
-                '0'+1,
-                '0'+3,
-                '0'+5,
-                '0'+6,
-                '0'+8,
-                '0'+9,
+                1,
+                3,
+                5,
+                6,
+                8,
+                9,
                 10,
                 13,
                 15,
@@ -316,19 +316,19 @@ function getImageURI(index) {
                 24,
                 25
             ];
-            result = '../hpg-inventory/images/0' + (mapping[index]) + '.png';
+            result = '../hpg-inventory/images/0' + ('0' + (mapping1[index])).slice(-2) + '.png';
             break;
 
         case "debuffs":
             const mapping = [
-                '0'+2,
-                '0'+4,
-                '0'+7,
+                2,
+                4,
+                7,
                 12,
                 20,
                 21
             ];
-            result = '../hpg-inventory/images/0' + (mapping[index]) + '.png';
+            result = '../hpg-inventory/images/0' + ('0' + (mapping[index])).slice(-2) + '.png';
             break;
 
         case "coin":
