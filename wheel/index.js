@@ -297,7 +297,7 @@ function getImageURI(index) {
     ;
     switch (currentDataSet) {
         case "inventory":
-            offset = 0;
+            offset = 51;
         case "effects":
             const mapping1 = [
                 1,
