@@ -7,240 +7,240 @@ const items = [
         title: 'Пустая ячейка'
     },
     {
-        img: 'images/001.png',
+        img: 'images/Читерский кубик.png',
         title: 'Читерский кубик',
     },
     {
-        img: 'images/002.png',
+        img: 'images/Кубик хуюбика.png',
         title: 'Кубик хуюбика'
     },
     {
-        img: 'images/003.png',
+        img: 'images/Очки EZ.png',
         title: 'Очки EZ',
     },
     {
-        img: 'images/004.png',
+        img: 'images/Повязка Рэмбо.png',
         title: 'Повязка Рэмбо',
     },
     {
-        img: 'images/005.png',
+        img: 'images/Свиток реролла.png',
         title: 'Свиток реролла'
     },
     {
-        img: 'images/006.png',
+        img: 'images/Шар всезнания.png',
         title: 'Шар всезнания'
     },
     {
-        img: 'images/007.png',
+        img: 'images/Взрывчатка.png',
         title: 'Взрывчатка',
         count: 2,
     },
     {
-        img: 'images/008.png',
+        img: 'images/Корона Колесного короля.png',
         title: 'Корона колесного короля',
     },
     {
-        img: 'images/009.png',
+        img: 'images/Ремонтный набор.png',
         title: 'Ремонтный набор'
     },
     {
-        img: 'images/010.png',
+        img: 'images/Красочная манга.png',
         title: 'Красочная манга',
     },
     {
-        img: 'images/011.png',
+        img: 'images/Рука мидаса.png',
         title: 'Рука мидаса',
         count: 3,
     },
     {
-        img: 'images/012.png',
+        img: 'images/Реверсивные сапоги.png',
         title: 'Реверсивные сапоги'
     },
     {
-        img: 'images/013.png',
+        img: 'images/Парные кольца времени.png',
         title: 'Парные кольца времени',
         count: 4,
     },
     {
-        img: 'images/014.png',
+        img: 'images/Тухлая шаурма.png',
         title: 'Тухлая шаурма',
         count: 2,
     },
     {
-        img: 'images/015.png',
+        img: 'images/Четырёхлистный клевер.png',
         title: 'Четырехлистный клевер'
     },
     {
-        img: 'images/016.png',
+        img: 'images/Чокер боли.png',
         title: 'Чокер боли'
     },
     {
-        img: 'images/017.png',
+        img: 'images/Полукаловая монетка.png',
         title: 'Полукаловая монетка'
     },
     {
-        img: 'images/018.png',
+        img: 'images/Шоколад.png',
         title: 'Шоколад',
     },
     {
-        img: 'images/019.png',
+        img: 'images/Туалетка.png',
         title: 'Туалетка',
     },
     {
-        img: 'images/020.png',
+        img: 'images/Штрафная Квитанция.png',
         title: 'Штрафная квитанция',
     },
     {
-        img: 'images/021.png',
+        img: 'images/Дырявый парашют.png',
         title: 'Дырявый парашют'
     },
     {
-        img: 'images/022.png',
+        img: 'images/Напёрсток удачи.png',
         title: 'Наперсток удачи'
     },
     {
-        img: 'images/023.png',
+        img: 'images/Рука для fisting.png',
         title: 'Рука для fisting',
         count: 5,
     },
     {
-        img: 'images/024.png',
+        img: 'images/Тотем мошны.png',
         title: 'Тотем мошны',
         isNotSlot: true
     },
     {
-        img: 'images/025.png',
+        img: 'images/Плюсовый блокнот.png',
         title: 'Плюсовый блокнот',
         isNotSlot: true
     },
 
     {
-        img: 'images/026.png',
+        img: 'images/Интрига.png',
         title: 'Интрига',
         isNotSlot: true
     },
     {
-        img: 'images/027.png',
+        img: 'images/Однорукий бандит.png',
         title: 'Однорукий бандит',
         isNotSlot: true
     },
     {
-        img: 'images/028.png',
+        img: 'images/Грязнулькин.png',
         title: 'Грязнулькин',
         isNotSlot: true
     },
     {
-        img: 'images/029.png',
+        img: 'images/Лепреконий схрон.png',
         title: 'Лепреконий схрон',
         isNotSlot: true
     },
     {
-        img: 'images/030.png',
+        img: 'images/Заначка Старыги.png',
         title: 'Заначка Старыги',
         isNotSlot: true
     },
     {
-        img: 'images/031.png',
+        img: 'images/Стример не тупой.png',
         title: 'Стример не тупой',
         isNotSlot: true
     },
     {
-        img: 'images/032.png',
+        img: 'images/Аптечка.png',
         title: 'Аптечка',
         isNotSlot: true
     },
     {
-        img: 'images/033.png',
+        img: 'images/Mine now TriHard.png',
         title: 'Mine now TriHard',
         isNotSlot: true
     },
     {
-        img: 'images/034.png',
+        img: 'images/Удачный неудачник.png',
         title: 'Удачный неудачник',
         isNotSlot: true
     },
     {
-        img: 'images/035.png',
+        img: 'images/Торопыга.png',
         title: 'Торопыга',
         isNotSlot: true
     },
     {
-        img: 'images/036.png',
+        img: 'images/Бог любит троицу.png',
         title: 'Бог любит троицу',
         isNotSlot: true
     },
     {
-        img: 'images/037.png',
+        img: 'images/Орёл или решка.png',
         title: 'Орел или решка',
         isNotSlot: true
     },
     {
-        img: 'images/038.png',
+        img: 'images/А где это я.png',
         title: 'А где это я',
         isNotSlot: true
     },
     {
-        img: 'images/039.png',
+        img: 'images/Я здесь закон.png',
         title: 'Я здесь закон',
         isNotSlot: true
     },
     {
-        img: 'images/040.png',
+        img: 'images/Выбор бумера.png',
         title: 'Выбор бумера',
         isNotSlot: true
     },
     {
-        img: 'images/041.png',
+        img: 'images/Выбор зумера.png',
         title: 'Выбор зумера',
         isNotSlot: true
     },
     {
-        img: 'images/042.png',
+        img: 'images/Мистер Ржавчик.png',
         title: 'Мистер Ржавчик',
         isNotSlot: true
     },
     {
-        img: 'images/043.png',
+        img: 'images/Всепоглощающий свин.png',
         title: 'Всепоглощающий свин',
         isNotSlot: true
     },
     {
-        img: 'images/044.png',
+        img: 'images/Грабли.png',
         title: 'Грабли',
         isNotSlot: true
     },
     {
-        img: 'images/045.png',
+        img: 'images/Тормознутый.png',
         title: 'Тормознутый',
         isNotSlot: true
     },
     {
-        img: 'images/046.png',
+        img: 'images/Крыса.png',
         title: 'Крыса',
         isNotSlot: true
     },
     {
-        img: 'images/047.png',
+        img: 'images/Увы.png',
         title: 'УВЫ',
         isNotSlot: true
     },
     {
-        img: 'images/048.png',
+        img: 'images/Часовой рост.png',
         title: 'Часовой рост',
         isNotSlot: true
     },
     {
-        img: 'images/049.png',
+        img: 'images/Часы перемен.png',
         title: 'Часы перемен',
         count: 3,
     },
     {
-        img: 'images/050.png',
+        img: 'images/Инструменты клоуна.png',
         title: 'Инструменты клоуна',
         count: 2,
     },
     {
-        img: 'images/051.png',
+        img: 'images/Хук Пуджа.png',
         title: 'Хук Пуджа',
         isNotSlot: true
     },

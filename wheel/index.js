@@ -64,7 +64,7 @@ const dataSets = {
         'Инструменты клоуна',
         'Тотем мошны',
         'Читерский кубик',
-        'Корона колесного короля',
+        'Корона Колесного короля',
         'Аптечка',
         'Парные кольца времени',
         'Четырёхлистный клевер',
@@ -72,7 +72,7 @@ const dataSets = {
         'Шоколад',
         'Свиток реролла',
         'Удачный неудачник',
-        'Плюсовый блакнот',
+        'Плюсовый блокнот',
         'Напёрсток удачи',
         'Туалетка',
         'Часы перемен',
@@ -104,11 +104,11 @@ const dataSets = {
         'Взрывчатка',
         'Реверсивные сапоги',
         'Дырявый парашют',
-        'УВЫ',
+        'Увы',
         'Грязнулькин',
         'Стример не тупой',
         'Часовой рост',
-        'Штрафная квитанция',
+        'Штрафная Квитанция',
         'Повязка Рэмбо',
         'Однорукий бандит',
         'Mine now TriHard',
@@ -300,29 +300,11 @@ function getImageURI(index) {
             result = '../hpg-inventory/images/'+ dataSets[currentDataSet][index] +'.png';
             break;
         case "effects":
-            const mapping1 = [
-                1,
-                3,
-                5,
-                6,
-                8,
-                9,
-                10,
-                13,
-                15,
-                18,
-                19,
-                22,
-                24,
-                25
-            ];
-            result = '../hpg-inventory/images/0' + ('0' + (mapping1[index])).slice(-2) + '.png';
+            result = '../hpg-inventory/images/'+ dataSets[currentDataSet][index] +'.png';
             break;
 
         case "debuffs":
-            const mapping = [
-            ];
-            result = '../hpg-inventory/images/0' + ('0' + (mapping[index])).slice(-2) + '.png';
+            result = '../hpg-inventory/images/'+ dataSets[currentDataSet][index] +'.png';
             break;
 
         case "coin":
