@@ -297,7 +297,7 @@ function getImageURI(index) {
     ;
     switch (currentDataSet) {
         case "inventory":
-            result = '../hpg-inventory/images'+ dataSets[currentDataSet][index] +'.png';
+            result = '../hpg-inventory/images/'+ dataSets[currentDataSet][index] +'.png';
             break;
         case "effects":
             const mapping1 = [
