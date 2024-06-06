@@ -176,7 +176,7 @@ const items = [
     },
     {
         img: 'images/038.png',
-        title: 'А где это я?',
+        title: 'А где это я',
         isNotSlot: true
     },
     {

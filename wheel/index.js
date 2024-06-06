@@ -296,8 +296,9 @@ function getImageURI(index) {
         offset = 0
     ;
     switch (currentDataSet) {
-        case "inventory":
-            offset = 51;
+        case "streamers":
+            result = '../hpg-inventory/images'+ dataSets[currentDataSet][index] +'.png';
+            break;
         case "effects":
             const mapping1 = [
                 1,
